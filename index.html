@@ -1,0 +1,325 @@
+<!DOCTYPE html><html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Web of Witness</title>
+<meta name="description" content="An independent, people-powered archive of India's youth protests: the facts, the faces, the slogans and your rights.">
+<meta property="og:title" content="Web of Witness: They detain. We witness.">
+<meta property="og:description" content="An independent archive of India's youth protests. Add your witness: photos, slogans and names.">
+<meta property="og:type" content="website"><meta name="twitter:card" content="summary">
+<meta name="theme-color" content="#ff4d2e">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Ctext y='.9em' font-size='90'%3E%E2%9C%8A%3C/text%3E%3C/svg%3E">
+<style>
+:root{--bg:#0b0b0f;--fg:#f4f1ea;--mut:#a29fa8;--card:#16161d;--acc:#ff4d2e;--acc2:#c6ff3d;--bd:#2a2a35;box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+@media(prefers-color-scheme:light){:root:not([data-theme="dark"]){--bg:#f7f3ea;--fg:#141418;--mut:#5d5a66;--card:#fff;--bd:#ddd6c6;--acc2:#2b7a00}}
+:root[data-theme="light"]{--bg:#f7f3ea;--fg:#141418;--mut:#5d5a66;--card:#fff;--bd:#ddd6c6;--acc2:#2b7a00}
+:root[data-theme="dark"]{--bg:#0b0b0f;--fg:#f4f1ea}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--fg);font:16px/1.6 system-ui,-apple-system,"Segoe UI",sans-serif}
+a{color:var(--acc)}section{max-width:1080px;margin:auto;padding:56px 18px}
+h1{font:900 clamp(2.6rem,10vw,6rem)/.95 Impact,"Arial Black",sans-serif;text-transform:uppercase;margin:.2em 0;letter-spacing:-1px}
+h1 span{color:var(--acc)}h2{font:900 clamp(1.7rem,5vw,2.8rem)/1.1 Impact,"Arial Black",sans-serif;text-transform:uppercase;margin:0 0 6px}
+h2 i{color:var(--acc2);font-style:normal}.tag{display:inline-block;border:1px solid var(--acc2);color:var(--acc2);padding:2px 10px;border-radius:99px;font-size:.78rem;letter-spacing:.1em;text-transform:uppercase}
+.lead{color:var(--mut);max-width:640px;font-size:1.1rem}
+.btn{display:inline-block;background:var(--acc);color:#fff;border:0;padding:12px 20px;border-radius:10px;font-weight:700;cursor:pointer;text-decoration:none;font-size:1rem}
+.btn.g{background:transparent;border:1px solid var(--bd);color:var(--fg)}
+nav{position:sticky;top:env(safe-area-inset-top,0px);background:color-mix(in srgb,var(--bg) 88%,transparent);backdrop-filter:blur(8px);z-index:5;border-bottom:1px solid var(--bd);display:flex;gap:16px;padding:10px 18px;overflow-x:auto;white-space:nowrap}
+nav a{text-decoration:none;color:var(--mut);font-weight:600;font-size:.9rem}nav b{color:var(--acc);margin-right:auto}
+.hero{min-height:80vh;display:flex;flex-direction:column;justify-content:center}
+.grid{display:grid;gap:14px;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));margin-top:22px}
+.card{background:var(--card);border:1px solid var(--bd);border-radius:14px;padding:18px}
+.hero-c .av{width:64px;height:64px;border-radius:50%;background:linear-gradient(135deg,var(--acc),var(--acc2));display:grid;place-items:center;font:900 1.6rem Impact,sans-serif;color:#111;margin-bottom:10px}
+.hero-c h3{margin:0}.hero-c small{color:var(--acc2)}.hero-c p{color:var(--mut);margin:.5em 0 0;font-size:.92rem}
+.tl{border-left:3px solid var(--acc);margin:24px 0 0 6px;padding-left:20px}.tl div{margin-bottom:22px}.tl b{color:var(--acc2);display:block;font-size:.85rem;letter-spacing:.08em}
+.rights{display:grid;gap:14px;grid-template-columns:repeat(auto-fit,minmax(250px,1fr));margin-top:20px}
+.rights .card{border-left:4px solid var(--acc2)}.rights q{display:block;font-style:italic;color:var(--mut);margin-top:6px;quotes:none}
+.wall{columns:3 200px;column-gap:12px;margin-top:20px}.wall figure{break-inside:avoid;margin:0 0 12px;background:var(--card);border:1px solid var(--bd);border-radius:12px;overflow:hidden}
+.wall img{width:100%;display:block}.wall figcaption{padding:8px 12px;font-size:.85rem;color:var(--mut)}
+.empty{border:2px dashed var(--bd);border-radius:14px;padding:32px;text-align:center;color:var(--mut)}
+input,textarea{width:100%;padding:10px;border-radius:8px;border:1px solid var(--bd);background:var(--card);color:var(--fg);font:inherit;margin:6px 0}
+.note{font-size:.85rem;color:var(--mut)}.adm{border:1px solid var(--acc);border-radius:14px;padding:16px;margin-top:20px}
+.adm figure{display:flex;gap:10px;align-items:center;margin:8px 0}.adm img{width:70px;height:70px;object-fit:cover;border-radius:8px}
+footer{text-align:center;color:var(--mut);padding:40px 18px;border-top:1px solid var(--bd);font-size:.85rem}
+.pledge{font:900 clamp(1.4rem,4vw,2.2rem)/1.2 Impact,sans-serif;text-transform:uppercase;border:3px solid var(--acc);padding:24px;border-radius:14px;margin-top:20px}
+.ticker{overflow:hidden;background:var(--acc);color:#fff;white-space:nowrap;font:900 1.1rem Impact,sans-serif;padding:10px 0;transform:rotate(-1deg);margin:10px -10px}.ticker div{display:inline-block;animation:tk 30s linear infinite}@keyframes tk{to{transform:translateX(-50%)}}@media(prefers-reduced-motion:reduce){.ticker div{animation:none}}
+.pre{max-width:720px;margin:auto;text-align:center;border:2px solid var(--acc2);border-radius:6px;padding:40px 24px;background:var(--card);box-shadow:0 0 0 6px var(--bg),0 0 0 8px var(--bd)}.pre small{letter-spacing:.3em;color:var(--mut)}.pre .big{font-size:1.25rem}.pre b{color:var(--acc2)}.pre p{margin:1em 0}
+.hero-c img{width:100%;height:190px;object-fit:cover;border-radius:10px;margin-bottom:10px}.roll{display:grid;gap:10px;grid-template-columns:repeat(auto-fill,minmax(220px,1fr));margin-top:20px}.roll .card{padding:12px}.roll .card small{color:var(--mut)}
+
+html,body{overflow-x:hidden}
+nav{flex-wrap:wrap;align-items:center;overflow:visible;white-space:normal}
+nav b{margin-right:auto;font:900 1rem Impact,sans-serif;letter-spacing:1px;color:var(--acc)}
+.links{display:flex;gap:18px;align-items:center}
+.burger{display:none;background:none;border:1px solid var(--bd);border-radius:8px;width:44px;height:40px;padding:0;cursor:pointer;flex-direction:column;justify-content:center;align-items:center;gap:5px}
+.burger span{display:block;width:20px;height:2px;background:var(--fg);transition:.2s}
+nav.open .burger span:nth-child(1){transform:translateY(7px) rotate(45deg)}nav.open .burger span:nth-child(2){opacity:0}nav.open .burger span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.hero{min-height:min(80vh,640px)}
+@media(max-width:720px){
+.burger{display:flex}
+.links{display:none;width:100%;flex-direction:column;align-items:stretch;gap:0;padding-top:8px}
+nav.open .links{display:flex}
+.links a{padding:13px 4px;border-top:1px solid var(--bd);font-size:1rem}
+section{padding:36px 16px}
+.hero{min-height:0;justify-content:flex-start;padding-top:28px;padding-bottom:20px}
+h1{font-size:clamp(2.4rem,14vw,3.6rem);margin:.3em 0 .4em}
+.lead{font-size:1rem}
+.hero .btn{display:block;text-align:center;margin:10px 0}
+.ticker{font-size:.9rem;margin:6px -16px}
+.pre{padding:28px 16px}.pre .big{font-size:1.08rem}
+.pledge{padding:18px}
+.wall{columns:2 140px}
+.card{padding:15px}
+}
+
+body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:50;opacity:.07;background-image:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='160' height='160'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='.9' numOctaves='2'/%3E%3C/filter%3E%3Crect width='160' height='160' filter='url(%23n)'/%3E%3C/svg%3E")}
+.hero{position:relative;background:radial-gradient(circle at 85% 20%,color-mix(in srgb,var(--acc) 30%,transparent),transparent 45%),radial-gradient(color-mix(in srgb,var(--fg) 14%,transparent) 1.2px,transparent 1.4px) 0 0/16px 16px}
+.hero h1{text-shadow:4px 4px 0 color-mix(in srgb,var(--acc) 45%,transparent)}
+.fist{position:absolute;right:4%;bottom:6%;font-size:clamp(5rem,20vw,11rem);transform:rotate(-12deg);filter:drop-shadow(6px 6px 0 var(--acc));animation:fl 4s ease-in-out infinite;pointer-events:none;opacity:.9}
+@keyframes fl{50%{transform:rotate(-6deg) translateY(-10px)}}
+.stats{display:flex;flex-wrap:wrap;gap:10px;margin-top:26px;max-width:640px}
+.stats div{border:2px solid var(--fg);padding:8px 12px;font:900 .8rem Impact,sans-serif;letter-spacing:.06em;text-transform:uppercase;background:var(--bg);box-shadow:4px 4px 0 var(--acc2)}
+.stats div:nth-child(2){transform:rotate(1.5deg)}.stats div:nth-child(3){transform:rotate(-1.5deg)}
+h2 i{background:linear-gradient(transparent 60%,color-mix(in srgb,var(--acc) 55%,transparent) 60%);padding:0 4px;color:var(--fg)}
+.card{box-shadow:5px 5px 0 color-mix(in srgb,var(--fg) 18%,transparent);transition:transform .2s,box-shadow .2s}
+.card:hover{transform:translate(-3px,-3px) rotate(-.4deg);box-shadow:8px 8px 0 var(--acc)}
+#hgrid{counter-reset:h}#hgrid .card{counter-increment:h;position:relative;overflow:hidden}
+#hgrid .card::after{content:"No. " counter(h,decimal-leading-zero);position:absolute;top:12px;right:14px;font:900 .8rem Impact,sans-serif;color:var(--acc)}
+#hgrid .card::before{content:"";position:absolute;top:-8px;left:50%;width:70px;height:20px;background:color-mix(in srgb,var(--acc2) 55%,transparent);transform:translateX(-50%) rotate(-3deg)}
+.tl div{position:relative}.tl div::before{content:"";position:absolute;left:-30px;top:6px;width:14px;height:14px;background:var(--acc);border:3px solid var(--bg);border-radius:50%}
+.pledge{background:var(--acc);color:#fff;border-color:var(--fg);box-shadow:8px 8px 0 var(--fg);transform:rotate(-1deg);text-align:center}
+.wall figure{box-shadow:4px 4px 0 var(--acc2);transition:transform .2s}.wall figure:hover{transform:rotate(1.2deg) scale(1.02)}
+.adm{background:color-mix(in srgb,var(--acc) 8%,var(--card));border:2px dashed var(--acc);position:relative}
+.adminhd{display:inline-block;background:var(--acc);color:#fff;font:900 .75rem Impact,sans-serif;letter-spacing:.15em;padding:4px 10px;border-radius:99px;margin-bottom:8px}
+.adm h3{margin:18px 0 6px;padding-top:12px;border-top:1px solid var(--bd)}
+.adminpill{position:fixed;right:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:60;background:var(--acc2);color:#111;font-weight:800;text-decoration:none;padding:12px 18px;border-radius:99px;box-shadow:4px 4px 0 var(--fg)}
+.rv{opacity:0;transform:translateY(26px);transition:opacity .6s,transform .6s}.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.fist{animation:none}.rv{opacity:1;transform:none;transition:none}}
+@media(max-width:720px){.fist{font-size:4.5rem;top:10px;bottom:auto;right:10px;opacity:.5}.stats div{font-size:.72rem}}
+.hp{position:absolute;left:-9999px;width:1px;height:1px;opacity:0}.hero-c .avimg{width:84px;height:84px;border-radius:50%;object-fit:cover;border:3px solid var(--acc2);margin-bottom:10px;display:block}.hbar{display:flex;gap:8px;margin-top:10px}.hbar .btn{padding:6px 10px;font-size:.8rem}
+</style></head><body>
+<nav id="nav"><b>WEB OF WITNESS</b><button class="burger" id="burger" aria-label="Open menu" aria-expanded="false"><span></span><span></span><span></span></button><div class="links" id="links"><a href="#now">Now</a><a href="#heroes">Gen Z Heroes</a><a href="#timeline">Timeline</a><a href="#preamble">The Preamble</a><a href="#rights">Your Rights</a><a href="#slogans">Slogans</a><a href="#roll">Roll of Witnesses</a><a href="#sources">Sources</a><a href="#wall">The Wall</a></div></nav>
+
+<section class="hero"><span class="tag">Live record · Oct 2026</span>
+<h1>They detain.<br><span>We witness.</span></h1>
+<p class="lead">An independent, people-powered archive of India's youth protests: the faces, the dates, the rights, the proof. If you know nothing about what is happening in India right now, start here.</p>
+<p><a class="btn" href="#now">What's happening</a> <a class="btn g" href="#wall">Add your witness</a></p>
+<div class="stats"><div>2,000+ detained on 10 Oct (AP)</div><div>Art. 19(1)(b): the right to assemble</div><div>Peaceful. Always.</div><div id="cnt" hidden></div></div><div class="fist" aria-hidden="true">✊</div></section>
+
+<div class="ticker"><div>INQUILAB ZINDABAD! &nbsp;•&nbsp; THEY DETAIN. WE WITNESS. &nbsp;•&nbsp; THEY SILENCE. WE RECORD. &nbsp;•&nbsp; THEY FORGET. WE REMEMBER. &nbsp;•&nbsp; THEY DIVIDE. WE UNITE. &nbsp;•&nbsp; INQUILAB ZINDABAD! &nbsp;•&nbsp; THEY DETAIN. WE WITNESS. &nbsp;•&nbsp; THEY SILENCE. WE RECORD. &nbsp;•&nbsp; THEY FORGET. WE REMEMBER. &nbsp;•&nbsp; THEY DIVIDE. WE UNITE. &nbsp;•&nbsp;</div></div>
+<section id="now"><h2>What is <i>happening</i> right now</h2>
+<div class="grid">
+<div class="card"><h3>The demand</h3><p>Protesters want the resignation of Chief Election Commissioner Gyanesh Kumar over alleged irregularities in voter-roll revision (the "special intensive revision", SIR).</p></div>
+<div class="card"><h3>10 Oct crackdown</h3><p>AP reports more than 2,000 protesters detained in Delhi, including opposition lawmakers. Reuters photos and ABC reporting say journalists and lawyers were also held. Most were released that night.</p></div>
+<div class="card"><h3>Leaders held at the airport</h3><p>Founder Abhijeet Dipke and two leaders were detained as their flight landed. A court released them Sunday on a "no breach of peace for one year" condition.</p></div>
+<div class="card"><h3>13 Oct, Jantar Mantar</h3><p>Delhi Police de-listed Jantar Mantar as a protest site. About 20 volunteers, including Ashutosh Ranka and Saurav Das, entered anyway and were detained (Al Jazeera).</p></div></div>
+<p class="note">Sources: Al Jazeera (10 &amp; 13 Oct 2026), AP/PBS (11 Oct), CNN, ABC News. Only reported facts are stated here. Add a source link to everything you contribute.</p></section>
+
+<section id="heroes"><h2>The Gen Z <i>freedom fighters</i></h2>
+<p class="lead">Bhagat Singh and Dr. B.R. Ambedkar showed that courage can be a pen, a speech, a refusal. Today's generation is doing it with phones, mics and their own bodies. Short, sourced profiles below.</p>
+<div class="grid hero-c" id="hgrid"></div>
+<p class="note">Know a young person who stood up? Add their name in the Roll of Witnesses below.</p></section>
+<section id="slogans"><h2>Slogans of the <i>street</i></h2><p class="lead">The lines that echo at every protest. Add yours. Keep it sharp and clean: no abuse, no threats, no names of private people.</p>
+<div id="sloglist" class="grid"></div>
+<div class="card" style="margin-top:20px"><h3>Add a slogan</h3><input class="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><input id="sl_text" maxlength="140" placeholder="Your slogan"><button class="btn" id="sl_send">Send for approval</button> <span id="sl_msg" class="note"></span></div></section>
+<section id="roll"><h2>Roll of <i>witnesses</i></h2><p class="lead">Were you at a protest, or do you know a young person who stood up? Add a name. Once the admin approves it, it goes on the roll.</p>
+<div class="card"><h3>Add a Gen Z freedom fighter</h3><input class="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><input id="sn_name" placeholder="Name (or a nickname)" maxlength="60"><input id="sn_note" placeholder="One line: what did they do / where were you?" maxlength="160"><label class="note"><input type="checkbox" id="sn_was" style="width:auto"> I was at the protest myself</label><br><button class="btn" id="sn_send">Suggest for approval</button> <span id="sn_msg" class="note"></span></div>
+<div id="rolllist" class="roll"></div></section>
+
+<section id="timeline"><h2>The <i>timeline</i></h2>
+<div class="tl">
+<div><b>16 MAY 2026</b>Abhijeet Dipke launches the Cockroach Janta Party online, as satire, after a remark by India's Chief Justice.</div>
+<div><b>JUNE 2026</b>CJP leads protests over the NEET exam irregularities. The education minister's resignation is seen as a movement victory.</div>
+<div><b>21 MAY &amp; AFTER</b>Its X account is withheld in India. It returns within minutes under a new handle, "Cockroach is Back".</div>
+<div><b>10 OCT 2026</b>Season 2 begins. Delhi is locked down, thousands detained, leaders held on landing.</div>
+<div><b>11 OCT</b>Leaders released by a court and vow to continue.</div>
+<div><b>13 OCT</b>Jantar Mantar re-entered. Volunteers detained again.</div></div></section>
+
+<section id="preamble"><div class="pre"><small>THE CONSTITUTION OF INDIA</small><h2>Preamble</h2>
+<p class="big">WE, THE PEOPLE OF INDIA, having solemnly resolved to constitute India into a <b>SOVEREIGN SOCIALIST SECULAR DEMOCRATIC REPUBLIC</b> and to secure to all its citizens:</p>
+<p><b>JUSTICE</b>, social, economic and political;<br><b>LIBERTY</b> of thought, expression, belief, faith and worship;<br><b>EQUALITY</b> of status and of opportunity;<br>and to promote among them all<br><b>FRATERNITY</b> assuring the dignity of the individual and the unity and integrity of the Nation;</p>
+<p>IN OUR CONSTITUENT ASSEMBLY this twenty-sixth day of November, 1949, do <b>HEREBY ADOPT, ENACT AND GIVE TO OURSELVES THIS CONSTITUTION.</b></p>
+<p class="note">Read it as a promise made to you, not a favour granted to you.</p></div></section>
+<section id="rights"><h2>Know your <i>rights</i></h2>
+<p class="lead">Peaceful protest is not a favour. It is written into the Constitution.</p>
+<div class="rights">
+<div class="card"><h3>Article 19(1)(a)</h3><q>Freedom of speech and expression</q></div>
+<div class="card"><h3>Article 19(1)(b)</h3><q>The right to assemble peacefully and without arms</q></div>
+<div class="card"><h3>Article 21</h3><q>Protection of life and personal liberty</q></div>
+<div class="card"><h3>Article 22</h3><q>Know the grounds of arrest; consult a lawyer; be produced before a magistrate within 24 hours</q></div></div>
+<div class="pledge">Inquilab Zindabad. We the people. Peaceful. Loud. Not going anywhere.</div>
+<div class="card" style="margin-top:24px;border-left:4px solid var(--acc)"><h3>If you are detained</h3>
+<p style="margin:.4em 0">1. Stay calm. Ask: "Am I being arrested or detained? On what grounds?"<br>2. You can ask to call a lawyer and a family member.<br>3. Do not sign anything you have not read.<br>4. Note the officers' names or badge numbers and which police station you are taken to.<br>5. Tell a trusted person your location before you go to a protest.</p>
+<p class="note">General information, not legal advice. Add a verified legal-aid contact for your city here after you check it from an official source.</p></div>
+<p class="note">These rights have "reasonable restrictions" under Article 19(2)-(3). This page is general information, not legal advice. If detained, ask clearly why and call a lawyer.</p></section>
+
+<section id="wall"><h2>The wall of <i>witness</i></h2>
+<p class="lead">Photos and videos of what people saw. Anyone signed in can submit. The admin approves before anything appears.</p>
+<div id="wallgrid" class="wall"></div>
+<div id="empty" class="empty">The wall is empty. Be the first witness.</div>
+<div class="card" style="margin-top:24px"><h3>Submit a photo</h3>
+<input class="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><input id="cap" placeholder="What happened? Where? When?" maxlength="200">
+<input id="src" placeholder="Credit / source link (photographer, account)" maxlength="200">
+<input id="file" type="file" accept="image/*">
+<button class="btn" id="send">Send for approval</button> <span id="msg" class="note"></span>
+<p class="note">Only post photos you took or have permission to share. Blur faces of people who could be targeted. No violence-glorifying or doxxing content.</p></div>
+<div id="admin" class="adm" hidden><div class="adminhd">ADMIN ONLY · visitors never see this</div><button class="btn g" id="logout" style="float:right">Sign out</button><h3>1. Pending photos</h3><div id="pend"></div>
+<h3>2. Pending names</h3><div id="pnames"></div>
+<h3>3. Pending slogans</h3><div id="pslog"></div><h3>4. Reports</h3><div id="preports"></div><h3>5. Pending journalist handles</h3><div id="pjourn"></div><h3>6. Add a Gen Z hero card</h3><input id="ah_name" placeholder="Name"><input id="ah_role" placeholder="Role (e.g. Independent journalist)"><textarea id="ah_note" rows="2" placeholder="Short sourced note"></textarea><input id="ah_file" type="file" accept="image/*"><button class="btn" id="ah_send">Add hero</button> <span id="ah_msg" class="note"></span></div></section>
+
+<section id="sources"><h2>The <i>sources</i></h2><p class="lead">Facts on this page come from published reports. Read them yourself.</p>
+<div class="grid">
+<a class="card" target="_blank" rel="noopener" href="https://www.aljazeera.com/amp/news/2026/10/13/police-detain-leaders-of-indias-cockroach-movement-at-new-delhi-protest"><b>Al Jazeera, 13 Oct 2026</b><br><small>Leaders detained at the Delhi protest</small></a>
+<a class="card" target="_blank" rel="noopener" href="https://www.aljazeera.com/news/2026/10/10/indias-cockroach-leaders-detained-new-delhi-in-lockdown"><b>Al Jazeera, 10 Oct 2026</b><br><small>Delhi under lockdown as leaders are held</small></a>
+<a class="card" target="_blank" rel="noopener" href="https://www.pbs.org/newshour/world/leaders-from-indias-cockroach-movement-released-from-detention-pledge-to-hold-more-protests"><b>PBS NewsHour</b><br><small>Leaders released and pledge more protests</small></a>
+<a class="card" target="_blank" rel="noopener" href="https://www.cnn.com/2026/10/09/india/india-cockroach-party-protests-season-2-intl-hnk"><b>CNN, 9 Oct 2026</b><br><small>Season 2 of the protests and the crackdown</small></a>
+<a class="card" target="_blank" rel="noopener" href="https://www.abc.net.au/news/2026-10-11/india-releases-cockroach-leaders-calls-for-more-protests/107253752"><b>ABC News (Australia), 11 Oct 2026</b><br><small>Release of leaders and calls for more protests</small></a></div>
+<h3 style="margin-top:34px">Independent journalists and their Instagram handles</h3>
+<p class="lead">Many independent journalists and creators post live updates from the street on Instagram. Know one? Suggest their handle. Every handle is checked before it appears. Listing an account is not an endorsement of every claim, so compare important claims across more than one source.</p>
+<div class="grid" id="jlist"></div>
+<div class="card" style="margin-top:20px"><h3>Suggest a handle</h3><input class="hp" tabindex="-1" autocomplete="off" aria-hidden="true"><input id="jn_handle" maxlength="40" placeholder="Instagram handle, without @"><input id="jn_note" maxlength="100" placeholder="What do they cover? (optional)"><button class="btn" id="jn_send">Send for approval</button> <span id="jn_msg" class="note"></span></div>
+<p class="note">Found a mistake? Use the contact line in the footer and it will be corrected.</p></section>
+<div id="login" class="card" hidden style="max-width:420px;margin:20px auto"><h3>Admin login</h3><input id="l_email" type="email" placeholder="Email" autocomplete="username"><input id="l_pw" type="password" placeholder="Password" autocomplete="current-password"><button class="btn" id="l_go">Sign in</button> <span id="l_msg" class="note"></span></div>
+<a class="adminpill" id="adminpill" href="#admin" hidden>🔐 Admin</a>
+<footer><b style="font:900 1.3rem Impact,sans-serif;letter-spacing:2px">WEB OF WITNESS</b><br>An independent, fan-made archive. Not run by or affiliated with any party or group.<br>If it happened, it was seen. If it was seen, it is recorded.<br><b>Inquilab Zindabad</b> · <i>Satyameva Jayate</i> · <b>Jai Hind</b><br><span id="contact" class="note"></span><br><a href="#" id="alog" class="note">Admin</a></footer>
+
+
+<script>
+(function(){var n=document.getElementById("nav"),b=document.getElementById("burger");
+b.onclick=function(){var o=n.classList.toggle("open");b.setAttribute("aria-expanded",o);b.setAttribute("aria-label",o?"Close menu":"Open menu")};
+document.querySelectorAll("#links a").forEach(function(a){a.onclick=function(){n.classList.remove("open");b.setAttribute("aria-expanded","false")}})})();
+(function(){if(!("IntersectionObserver" in window))return;var io=new IntersectionObserver(function(e){e.forEach(function(x){if(x.isIntersecting){x.target.classList.add("in");io.unobserve(x.target)}})},{threshold:.08});
+document.querySelectorAll("section:not(.hero) > *").forEach(function(el){el.classList.add("rv");io.observe(el)})})();
+</script>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.116.0/dist/umd/supabase.js"></script>
+<script>
+/* ====== SETUP: paste your 3 values here (see the setup steps) ====== */
+var SUPABASE_URL="https://iczrupqehrgoorhllgsu.supabase.co";
+var SUPABASE_KEY="sb_publishable_PHHxfofkliVioSpTxh5VPQ_w_uP-yq9";
+var SONG_ID="7fqa0VSA_w0";     /* YouTube video ID of the OFFICIAL video (the part after watch?v=). Leave empty for no music. */
+var SONG_FILE="";   /* AUDIO-ONLY: put an mp3 you have permission to use next to index.html, e.g. "anthem.mp3". If set, it plays instead of the YouTube video. */
+var SONG_START=0;   /* second where the clip starts */
+var CONTACT_EMAIL=""; /* your project-only email for take-down and correction requests (optional) */
+var SONG_END=0;     /* second where it stops (0 = play to the end) */
+/* =================================================================== */
+(function(){
+var sb=(SUPABASE_URL.indexOf("http")===0&&window.supabase)?supabase.createClient(SUPABASE_URL,SUPABASE_KEY):null,isAdmin=false;
+function $(i){return document.getElementById(i)}
+function el(t,x,c){var e=document.createElement(t);if(x!=null)e.textContent=x;if(c)e.className=c;return e}
+function pub(p){return sb.storage.from("witness").getPublicUrl(p).data.publicUrl}
+function uid(){return(window.crypto&&crypto.randomUUID)?crypto.randomUUID():String(Date.now())+Math.random().toString(16).slice(2)}
+var EXT={"image/jpeg":"jpg","image/png":"png","image/webp":"webp"};
+function okFile(f){return f&&EXT[f.type]&&f.size<=5242880}
+async function up(f,folder){var p=folder+"/"+uid()+"."+EXT[f.type];var r=await sb.storage.from("witness").upload(p,f,{contentType:f.type});if(r.error)throw r.error;return p}
+var DEF=[["Abhijeet Dipke","Founder, CJP","Political communications strategist who launched the Cockroach Janta Party on 16 May 2026. Detained at Delhi airport on 10 Oct, released by a court the next day."],["Saurav Das","Chief spokesperson, CJP","Detained at Jantar Mantar on 13 Oct. Spoke at Press Club of India after the earlier release."],["Ashutosh Ranka","Co-convenor, CJP","Among the volunteers who re-entered Jantar Mantar on 13 Oct and were detained."],["Ajinkya Shinde","CJP leader","Detained on 13 Oct at Jantar Mantar, per Al Jazeera."],["Ratna Singh","Legal head, CJP","Announced the leaders' court release on X."],["Neha Bohra","Voice of the movement","Profile to be added with sources."],["Dhruv Rathi","YouTuber and commentator","Widely followed creator on Indian politics."],["Unsung Gen Z warriors","The ones with no name tag","Every student, lawyer, journalist and parent who showed up, filmed, or posted bail."]].map(function(a){return{name:a[0],role:a[1],note:a[2]}});
+function drawHeroes(list){var g=$("hgrid");g.textContent="";
+list.forEach(function(h){var d=el("div",null,"card");
+if(h.photo_path&&sb){var im=el("img");im.src=/^https:\/\//.test(h.photo_path)?h.photo_path:pub(h.photo_path);im.alt=h.name;im.className="avimg";im.referrerPolicy="no-referrer";var fb=el("div",h.name[0],"av");im.onerror=function(){im.replaceWith(fb)};d.append(im)}else d.append(el("div",h.name[0],"av"));
+d.append(el("h3",h.name),el("small",h.role||""),el("p",h.note||""));
+if(isAdmin&&h.id){var bar=el("div",null,"hbar"),f=el("input");f.type="file";f.accept="image/*";f.hidden=true;
+var b=el("button","Photo","btn g");b.onclick=function(){f.click()};
+var lk=el("button","Link","btn g");lk.onclick=async function(){var u=prompt("Paste a direct image link (starts with https:// and ends in .jpg, .png or .webp):");if(!u)return;u=u.trim();if(!/^https:\/\/\S+$/.test(u))return alert("The link must start with https://");try{var r=await sb.from("heroes").update({photo_path:u}).eq("id",h.id);if(r.error)throw r.error;loadAll()}catch(e){alert("Failed: "+e.message)}};
+f.onchange=async function(){var x=f.files[0];if(!okFile(x))return alert("Use a JPG, PNG or WebP under 5 MB.");try{var p=await up(x,"heroes");var r=await sb.from("heroes").update({photo_path:p}).eq("id",h.id);if(r.error)throw r.error;loadAll()}catch(e){alert("Failed: "+e.message)}};
+var x=el("button","Delete","btn g");x.onclick=async function(){if(confirm("Delete "+h.name+"?")){await sb.from("heroes").delete().eq("id",h.id);loadAll()}};
+bar.append(f,b,lk,x);d.append(bar)}
+g.append(d)})}
+function shareTools(b,t){var w=el("a","Share","btn g");w.style.cssText="padding:6px 10px;font-size:.8rem";w.target="_blank";w.rel="noopener";w.href="https://wa.me/?text="+encodeURIComponent(t+" \u2014 Web of Witness "+location.href.split("#")[0]);b.append(w);return b}
+function drawJourn(list){var g=$("jlist");if(!g)return;g.textContent="";
+if(!list.length){g.append(el("div","No handles yet. Suggest one below.","card"));return}
+list.forEach(function(x){var c=el("div",null,"card");var a=el("a",null);a.href="https://www.instagram.com/"+x.handle+"/";a.target="_blank";a.rel="noopener noreferrer";a.append(el("b","@"+x.handle));
+c.append(a);if(x.note)c.append(el("br"),el("small",x.note));c.append(tools("journalists",x,"@"+x.handle));g.append(c)})}
+function tools(table,x,label){var b=el("div",null,"hbar");var r=el("button","Report","btn g");
+r.onclick=async function(){try{await sb.from("reports").insert({kind:table,label:String(label).slice(0,200)});r.textContent="Reported";r.disabled=true}catch(e){}};b.append(r);
+if(isAdmin){var d=el("button","Remove","btn g");d.onclick=async function(){if(!confirm("Remove this?"))return;if(x.path)await sb.storage.from("witness").remove([x.path]);await sb.from(table).delete().eq("id",x.id);loadAll()};b.append(d)}return b}
+function drawSlogans(list){var g=$("sloglist");g.textContent="";list.forEach(function(x){var c=el("div",null,"card");var t=el("p",x.text);t.style.cssText="font:900 1.3rem/1.2 Impact,sans-serif;text-transform:uppercase;margin:0 0 10px";c.append(t);
+var b=tools("slogans",x,x.text);var w=el("a","Share","btn g");w.style.cssText="padding:6px 10px;font-size:.8rem";w.target="_blank";w.rel="noopener";w.href="https://wa.me/?text="+encodeURIComponent(x.text+" \u2014 Web of Witness "+location.href.split("#")[0]);b.append(w);c.append(b);g.append(c)})}
+function drawWall(list){var w=$("wallgrid");w.textContent="";$("empty").hidden=list.length>0;
+list.forEach(function(x){var f=el("figure"),i=el("img");i.src=pub(x.path);i.alt=x.caption||"witness photo";i.loading="lazy";f.append(i,el("figcaption",(x.caption||"")+(x.source?" \u2014 "+x.source:"")),shareTools(tools("photos",x,x.caption||"photo"),x.caption||"A witness photo"));w.append(f)})}
+function drawRoll(list){var r=$("rolllist");r.textContent="";list.forEach(function(n){var c=el("div",null,"card");c.append(el("b",(n.was_there?"\u270a ":"")+n.name),el("small",n.note?" \u2014 "+n.note:""),tools("names",n,n.name));r.append(c)})}
+async function loadAdmin(){var pp=$("pend"),pn=$("pnames");pp.textContent="";pn.textContent="";
+var a=await sb.from("photos").select("*").eq("approved",false).order("created_at");
+if(!a.data||!a.data.length)pp.textContent="Nothing pending.";
+(a.data||[]).forEach(function(x){var f=el("figure"),i=el("img");i.src=pub(x.path);
+var ap=el("button","Approve","btn");ap.onclick=async function(){await sb.from("photos").update({approved:true}).eq("id",x.id);loadAll()};
+var rj=el("button","Reject","btn g");rj.onclick=async function(){await sb.storage.from("witness").remove([x.path]);await sb.from("photos").delete().eq("id",x.id);loadAll()};
+f.append(i,el("span",(x.caption||"")+" \u2014 "+(x.source||"no source")+" "),ap,rj);pp.append(f)});
+var n=await sb.from("names").select("*").eq("approved",false).order("created_at");
+if(!n.data||!n.data.length)pn.textContent="Nothing pending.";
+(n.data||[]).forEach(function(x){var r=el("div");r.style.margin="8px 0";
+var ap=el("button","Approve","btn");ap.onclick=async function(){await sb.from("names").update({approved:true}).eq("id",x.id);loadAll()};
+var rj=el("button","Reject","btn g");rj.onclick=async function(){await sb.from("names").delete().eq("id",x.id);loadAll()};
+r.append(el("span",x.name+(x.note?" \u2014 "+x.note:"")+" "),ap,rj);pn.append(r)})}
+async function loadAll(){
+if(!sb){drawHeroes(DEF);drawJourn([]);return}
+try{var h=await sb.from("heroes").select("*").order("sort").order("created_at");drawHeroes(h.data&&h.data.length?h.data:DEF);
+var p=await sb.from("photos").select("*").eq("approved",true).order("created_at",{ascending:false});drawWall(p.data||[]);
+var n=await sb.from("names").select("*").eq("approved",true).order("created_at",{ascending:false});drawRoll(n.data||[]);
+var sl=await sb.from("slogans").select("*").eq("approved",true).order("created_at",{ascending:false});drawSlogans(sl.data||[]);
+try{var jr=await sb.from("journalists").select("*").eq("approved",true).order("created_at",{ascending:false});drawJourn(jr.error?[]:(jr.data||[]))}catch(e){drawJourn([])}
+var tot=(p.data||[]).length+(n.data||[]).length+(sl.data||[]).length;if(tot){$("cnt").textContent=tot+" witnesses recorded";$("cnt").hidden=false}
+if(isAdmin){loadAdmin();loadAdmin2();loadAdmin3()}}catch(e){drawHeroes(DEF)}}
+async function loadAdmin2(){var ps=$("pslog"),pr=$("preports");ps.textContent="";pr.textContent="";
+var a=await sb.from("slogans").select("*").eq("approved",false).order("created_at");if(!a.data||!a.data.length)ps.textContent="Nothing pending.";
+(a.data||[]).forEach(function(x){var r=el("div");r.style.margin="8px 0";var ap=el("button","Approve","btn");ap.onclick=async function(){await sb.from("slogans").update({approved:true}).eq("id",x.id);loadAll()};
+var rj=el("button","Reject","btn g");rj.onclick=async function(){await sb.from("slogans").delete().eq("id",x.id);loadAll()};r.append(el("span",x.text+" "),ap,rj);ps.append(r)});
+var q=await sb.from("reports").select("*").order("created_at",{ascending:false}).limit(30);if(!q.data||!q.data.length)pr.textContent="No reports.";
+(q.data||[]).forEach(function(x){var r=el("div");r.style.margin="8px 0";var d=el("button","Dismiss","btn g");d.onclick=async function(){await sb.from("reports").delete().eq("id",x.id);loadAll()};r.append(el("span",x.kind+": "+(x.label||"")+" "),d);pr.append(r)})}
+async function loadAdmin3(){var pj=$("pjourn");pj.textContent="";try{var a=await sb.from("journalists").select("*").eq("approved",false).order("created_at");
+if(a.error){pj.textContent="Run the journalists setup text in Supabase to turn this on.";return}
+if(!a.data.length)pj.textContent="Nothing pending.";
+a.data.forEach(function(x){var r=el("div");r.style.margin="8px 0";var l=el("a","@"+x.handle);l.href="https://www.instagram.com/"+x.handle+"/";l.target="_blank";l.rel="noopener noreferrer";
+var ap=el("button","Approve","btn");ap.onclick=async function(){await sb.from("journalists").update({approved:true}).eq("id",x.id);loadAll()};
+var rj=el("button","Reject","btn g");rj.onclick=async function(){await sb.from("journalists").delete().eq("id",x.id);loadAll()};
+r.append(l,el("span"," "+(x.note||"")+" "),ap,rj);pj.append(r)})}catch(e){}}
+$("jn_send").onclick=async function(){var card=this.closest(".card");if(card.querySelector(".hp").value)return m("jn_msg","Sent.");
+var h=$("jn_handle").value.trim().replace(/^https?:\/\/(www\.)?instagram\.com\//i,"").replace(/^@/,"").replace(/[\/?].*$/,"");
+if(!/^[A-Za-z0-9._]{1,30}$/.test(h))return m("jn_msg","Enter just the handle, e.g. username");if(!sb)return m("jn_msg","Not connected yet.");
+try{var r=await sb.from("journalists").insert({handle:h,note:$("jn_note").value.slice(0,100)});if(r.error)throw r.error;m("jn_msg","Sent for approval. Thank you.");$("jn_handle").value="";$("jn_note").value=""}catch(e){m("jn_msg","Could not send. That handle may already be listed.")}};
+$("sl_send").onclick=async function(){var card=this.closest(".card");if(card.querySelector(".hp").value)return m("sl_msg","Sent.");var t=$("sl_text").value.trim();
+if(!t)return m("sl_msg","Write a slogan first.");if(!sb)return m("sl_msg","Not connected yet.");
+try{var r=await sb.from("slogans").insert({text:t.slice(0,140)});if(r.error)throw r.error;m("sl_msg","Sent for approval. Thank you.");$("sl_text").value=""}catch(e){m("sl_msg","Could not send: "+(e.message||"error"))}};
+
+function m(id,t){$(id).textContent=t}
+$("send").onclick=async function(){var card=this.closest(".card");
+if(card.querySelector(".hp").value)return m("msg","Sent.");
+var f=$("file").files[0];if(!f)return m("msg","Choose a photo first.");
+if(!sb)return m("msg","The site is not connected to its database yet.");
+if(!okFile(f))return m("msg","Use a JPG, PNG or WebP photo under 5 MB.");
+try{m("msg","Uploading\u2026");var p=await up(f,"pending");
+var r=await sb.from("photos").insert({caption:$("cap").value.slice(0,200),source:$("src").value.slice(0,200),path:p});if(r.error)throw r.error;
+m("msg","Sent! It will appear after the admin approves it.");$("file").value="";$("cap").value="";$("src").value=""}catch(e){m("msg","Could not send: "+(e.message||"error"))}};
+$("sn_send").onclick=async function(){var card=this.closest(".card");if(card.querySelector(".hp").value)return m("sn_msg","Sent.");
+var n=$("sn_name").value.trim();if(!n)return m("sn_msg","Enter a name.");if(!sb)return m("sn_msg","The site is not connected to its database yet.");
+try{var r=await sb.from("names").insert({name:n.slice(0,60),note:$("sn_note").value.slice(0,160),was_there:$("sn_was").checked});if(r.error)throw r.error;
+m("sn_msg","Sent for approval. Thank you.");$("sn_name").value="";$("sn_note").value=""}catch(e){m("sn_msg","Could not send: "+(e.message||"error"))}};
+$("ah_send").onclick=async function(){var n=$("ah_name").value.trim();if(!n||!sb)return m("ah_msg","Name needed.");
+try{var p=null,f=$("ah_file").files[0];if(f){if(!okFile(f))return m("ah_msg","JPG/PNG/WebP under 5 MB.");p=await up(f,"heroes")}
+var r=await sb.from("heroes").insert({name:n,role:$("ah_role").value,note:$("ah_note").value,photo_path:p,sort:100});if(r.error)throw r.error;
+m("ah_msg","Added.");$("ah_name").value="";$("ah_role").value="";$("ah_note").value="";loadAll()}catch(e){m("ah_msg","Failed: "+(e.message||"error"))}};
+$("alog").onclick=function(e){e.preventDefault();$("login").hidden=!$("login").hidden;$("login").scrollIntoView({behavior:"smooth"})};
+var ce=$("contact");if(typeof CONTACT_EMAIL!=="undefined"&&CONTACT_EMAIL){var a2=document.createElement("a");a2.href="mailto:"+CONTACT_EMAIL;a2.textContent="Take-down or correction request: "+CONTACT_EMAIL;ce.append(a2)}else ce.textContent="To report a photo or post, use its Report button.";
+$("l_go").onclick=async function(){if(!sb)return m("l_msg","Not connected.");var r=await sb.auth.signInWithPassword({email:$("l_email").value.trim(),password:$("l_pw").value});
+if(r.error)return m("l_msg","Wrong email or password.");$("login").hidden=true;$("l_pw").value=""};
+$("logout").onclick=function(){sb.auth.signOut()};
+if(sb){sb.auth.onAuthStateChange(function(ev,sess){var e=sess&&sess.user&&sess.user.email;isAdmin=!!(sess&&sess.user);
+$("admin").hidden=!isAdmin;$("adminpill").hidden=!isAdmin;setTimeout(loadAll,0)})}else loadAll();
+})();
+</script>
+<script>
+(function(){
+var HAS_FILE=(typeof SONG_FILE!=="undefined"&&SONG_FILE);
+if(!HAS_FILE&&(typeof SONG_ID==="undefined"||!SONG_ID))return;
+var st=document.createElement("style");st.textContent="@keyframes wowp{0%{box-shadow:0 0 0 0 rgba(255,77,46,.7)}100%{box-shadow:0 0 0 18px rgba(255,77,46,0)}}.wowbtn{animation:wowp 1.8s infinite}@media(prefers-reduced-motion:reduce){.wowbtn{animation:none}}";document.head.append(st);
+var b=document.createElement("button");b.className="wowbtn";b.textContent="\uD83C\uDFB5";b.setAttribute("aria-label","Play song");
+b.style.cssText="position:fixed;left:14px;bottom:calc(14px + env(safe-area-inset-bottom,0px));z-index:70;width:56px;height:56px;border-radius:50%;border:3px solid #fff;background:#ff4d2e;color:#fff;font-size:1.5rem;cursor:pointer";
+document.body.append(b);
+var on=false,w=null,a=null;
+function stop(){on=false;b.textContent="\uD83C\uDFB5";b.setAttribute("aria-label","Play song");if(w){w.remove();w=null}if(a){a.pause()}}
+b.onclick=function(){
+if(on)return stop();
+on=true;b.textContent="\u23F8";b.setAttribute("aria-label","Stop song");
+if(HAS_FILE){if(!a){a=new Audio(SONG_FILE);a.loop=true}a.play().catch(function(){stop()});return}
+w=document.createElement("div");w.style.cssText="position:fixed;left:14px;bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:70;width:220px;height:220px;border-radius:12px;overflow:hidden;border:2px solid #ff4d2e;background:#000";
+var q="autoplay=1&playsinline=1&rel=0&start="+(SONG_START||0)+((typeof SONG_END!=="undefined"&&SONG_END>SONG_START)?"&end="+SONG_END:"");
+var f=document.createElement("iframe");f.src="https://www.youtube.com/embed/"+encodeURIComponent(SONG_ID)+"?"+q;f.allow="autoplay; encrypted-media; picture-in-picture";f.referrerPolicy="strict-origin-when-cross-origin";f.title="Song";f.style.cssText="width:100%;height:100%;border:0";
+w.append(f);document.body.append(w);
+if(typeof SONG_END!=="undefined"&&SONG_END>SONG_START)setTimeout(function(){if(on)stop()},(SONG_END-SONG_START+3)*1000)};
+})();
+</script>
+</body></html>
